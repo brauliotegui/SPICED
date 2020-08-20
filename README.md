@@ -3,12 +3,13 @@ Data Science projects completed at a Data Science Bootcamp
 
 ![alt text](https://coden-lernen.de/wp-content/uploads/2018/03/spiced-logo.png)
 
-## Week 01| Gapminder: Matplotlib Project
+## Week 01| Gapminder: Data Visualization Project
 
-* For this week, we have examined Gapminder project's data and visualized the
-correlation between each country's population and fertiliy rate. My GIF can be
-found here:
-  * [Life Expectancy vs. Fertility](https://github.com/brauliotegui/SPICED/blob/master/Week_01/animatedplotchart.gif)
+* The project analyzes the Gapminder project's data and helps to visualize the
+correlation between each country's population and fertiliy rate. The gif was generated with python and matplotlib. 
+* Life Expectancy vs. Fertility:
+
+  ![Alt Text](https://github.com/brauliotegui/SPICED/blob/master/Week_01/animatedplotchart.gif)
 
 * The Jupyter notebook for this small project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_01/2.7_animate.ipynb).
 
