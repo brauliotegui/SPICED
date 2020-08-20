@@ -1,4 +1,4 @@
-# SPICED Academy: Bootcamp projects
+# SPICED Academy Projects
 Data Science projects completed at a Data Science Bootcamp
 
 ![alt text](https://coden-lernen.de/wp-content/uploads/2018/03/spiced-logo.png)
