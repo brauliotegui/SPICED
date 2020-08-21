@@ -30,7 +30,7 @@ to attain the best fitting model which indicated Linear models with above averag
 
 * The Jupyter notebook for this project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_03/Project_CapitalBikeShare_Regression.ipynb).
 
-## Week 04| Bikeshare: Lyrics Classifier: Natural Language Processing Project
+## Week 04| Bikeshare: Lyrics Classifier - Natural Language Processing Project
 
 * The goal here is to build a text classification model to predict the artist from a piece of text. I programmed python functions to perform Web Scraping done with BeautifulSoup to download song lyrics from specifc artists url and save only the corpus lyrics as texts files from every single song lyrics url. Class imbalance was dealt with over sampling, texts were engineered with CountVectorizer and TfidfTransformer, and Machine Learning was done by training classification models... (to be updated)
 
