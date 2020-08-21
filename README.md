@@ -11,7 +11,7 @@ correlation between each country's population and fertiliy rate. The gif image w
 
   ![Alt Text](https://github.com/brauliotegui/SPICED/blob/master/Week_01/animatedplotchart.gif)
 
-* The Jupyter notebook for this project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_02/Titanic_ModelProject.ipynb).
+* The Jupyter notebook for this small project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_01/2.7_animate.ipynb).
 
 ## Week 02| Titanic: Classifier/ Logistic Regression Project
 
@@ -20,11 +20,15 @@ With python and sklearn library, after a detailed process of feature engineering
 with accuracy scores inbetween 81% and 84%. A k-fold Cross Validation was used to test the machine learning models and presented consistent scores
 around 94%.
 
-The Jupyter notebook for this small project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_01/2.7_animate.ipynb).
+* The Jupyter notebook for this project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_02/Titanic_ModelProject.ipynb).
 
 ## Week 03| Bikeshare: Linear Regression 
 
-* For this week...
+* Here the approach to Machine Learning is done with Linear Regression models. Through intensive Data Exploration Analysis, correlation analysis, and
+feature engineering with dates, I was able to construct robust models to estimate number of bike rentals on a particular time. GridSearchCV was used
+to attain the best fitting model which indicated Linear models with above average mean test scores.
+
+* The Jupyter notebook for this small project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_03/Project_CapitalBikeShare_Regression.ipynb).
 
 ## Week 04| Bikeshare: Lyrics Classifier: Natural Language Processing Project
 
