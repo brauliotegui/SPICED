@@ -28,11 +28,15 @@ around 94%.
 feature engineering with dates, I was able to construct robust models to estimate number of bike rentals on a particular time. GridSearchCV was used
 to attain the best fitting model which indicated Linear models with above average mean test scores.
 
-* The Jupyter notebook for this small project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_03/Project_CapitalBikeShare_Regression.ipynb).
+* The Jupyter notebook for this project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_03/Project_CapitalBikeShare_Regression.ipynb).
 
 ## Week 04| Bikeshare: Lyrics Classifier: Natural Language Processing Project
 
-* For this week...
+* The goal here is to build a text classification model to predict the artist from a piece of text. I programmed python functions to perform Web Scraping done with BeautifulSoup to download song lyrics from specifc artists url and save only the corpus lyrics as texts files from every single song lyrics url. Class imbalance was dealt with over sampling, texts were engineered with CountVectorizer and TfidfTransformer, and Machine Learning was done by training classification models... (to be updated)
 
 ## Week 05| Forecast Model
+
+* For this project, I created a short-term temperature forecast. This involved Time series to predict future temperature for a specific location using AR and ARIMA models with a Walk Forward approach, achieving a MAE as low as 1.8.
+
+* The Jupyter notebook for this project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_05/Project_TimeSeriesAnalysis-Final.ipynb).
 
