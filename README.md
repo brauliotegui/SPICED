@@ -46,6 +46,6 @@ to attain the best fitting model which indicated Linear models with above averag
 * For this project, ...
 <p align="center">
 <img src="https://github.com/brauliotegui/SPICED/blob/master/Week_06/public_dashboard-example1.png" width="691" height="432">
-<img src="https://github.com/brauliotegui/SPICED/blob/master/Week_06/Screenshot%202020-08-21%20at%2017.32.04.png" width="691" height="232">
+<img src="https://github.com/brauliotegui/SPICED/blob/master/Week_06/public_dashboard-example2.png" width="691" height="232">
   </p>
 
