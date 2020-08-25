@@ -8,8 +8,9 @@ Data Science projects completed at a Data Science Bootcamp
 * The project analyzes the Gapminder project's data and helps to visualize the
 correlation between each country's population and fertiliy rate. The gif image was generated with python and matplotlib. 
 * Life Expectancy vs. Fertility:
-
-  ![Alt Text](https://github.com/brauliotegui/SPICED/blob/master/Week_01/animatedplotchart.gif)
+  <p align="center">
+  <img src="https://github.com/brauliotegui/SPICED/blob/master/Week_01/animatedplotchart.gif" width="75%" height="75%">
+  </p>
 
 * The Jupyter notebook for this small project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_01/2.7_animate.ipynb).
 
@@ -39,4 +40,12 @@ to attain the best fitting model which indicated Linear models with above averag
 * For this project, I created a short-term temperature forecast. This involved Time series to predict future temperature for a specific location using AR and ARIMA models with a Walk Forward approach, achieving a MAE as low as 1.8.
 
 * The Jupyter notebook for this project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_05/Project_TimeSeriesAnalysis-Final.ipynb).
+
+## Week 06| Project Dashboard: Postgres, SQL queries, RDS, and AWS
+
+* For this project, ...
+<p align="center">
+<img src="https://github.com/brauliotegui/SPICED/blob/master/Week_06/public_dashboard-example1.png" width="691" height="432">
+<img src="https://github.com/brauliotegui/SPICED/blob/master/Week_06/Screenshot%202020-08-21%20at%2017.32.04.png" width="691" height="232">
+  </p>
 
