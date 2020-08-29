@@ -1,0 +1,38 @@
+
+# try this first
+docker run hello-world
+
+# python container that exits immediately
+docker run python
+
+# clean up
+docker ps -a
+docker rm xenodochial_bassi
+docker rm thirsty_jepsen
+docker ps -a
+
+# launch interactive python
+docker run -it -d --name lemongrass python
+docker ps -a
+docker attach lemongrass
+# log out with ctrl+p ctrl+q
+
+# clean up again
+docker stop lemongrass
+docker ps -a
+
+# create a custom image, moving files around
+touch Dockerfile
+atom Dockerfile
+echo "pandas"
+touch app.ppy
+atom app.py
+pip freeze | grep pandas > requirements.txt
+pip freeze | grep numpy >> requirements.txt
+pip freeze | grep tweepy
+
+docker build -t magic_lemons .
+docker run magic_lemons
+
+# view images
+docker images

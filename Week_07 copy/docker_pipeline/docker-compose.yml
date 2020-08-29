@@ -1,0 +1,36 @@
+version: '3'
+# Everything below servivces will be a separate container
+services:
+  # use logging.critical() instead of print()
+  # ports
+  # environment variables
+  # shared volumes
+
+  # 1. Container
+  chilli:
+    # prints a random fruit every 10 seconds
+    # build indicates that we want to build an image according
+    # to the Dockerfile inside the specific folder (chilli)
+    # and run a container with this image
+    build: chilli/
+    depends_on:
+    - postgresdb
+
+  spices:
+    # prints a random spice every 10 seconds
+    build: spices/
+    volumes:
+    - ./spices/:/app
+    #command:
+    #- ["python", "random_spice.py"]
+
+  postgresdb:
+    # image indicates that there is a predefined image that we want to use
+    # Someone already uploaded this image to docker-hub
+    image: postgres
+    # port mapping LOCAL:CONTAINER
+    ports:
+    - 5555:5432
+    environment:
+    - POSTGRES_PASSWORD=1234
+    # psql -h 0.0.0.0 -p 5555 -U postgres postgres

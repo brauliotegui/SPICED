@@ -1,0 +1,52 @@
+version: '3'
+services:
+  # use logging.critical() instead of print()
+  # ports
+  # environment variables
+  # shared volumes
+
+  # 1. Container in our pipeline
+  tweet_collector:
+    build: tweet_collector/
+    # Link the tweets directory (from local machine) with the working directory
+    # in the container (/app) --> The two directories automatically be synched
+    volumes:
+      - ./tweet_collector/:/app
+    # depends_on makes sure that the container mongodb is started before the container tweet_collector
+    depends_on:
+    - mongodb
+
+  # 2. Container in our pipeline
+  mongodb:
+    image: mongo
+    # port mapping LOCAL:CONTAINER
+    ports:
+      - 27018:27017
+
+  # 3. Container in our pipeline
+  etl:
+    build: etl/
+    volumes:
+      - ./etl/:/app
+    depends_on:
+      - mongodb
+      - postgresdb
+    restart: "always"
+
+  # 4. Container in our pipeline
+  postgresdb:
+    image: postgres
+    # port mapping LOCAL:CONTAINER
+    ports:
+    - 5555:5432
+    environment:
+    - POSTGRES_PASSWORD=1234
+    # psql -h 0.0.0.0 -p 5555 -U postgres postgres
+
+   # 5. Container in our pipeline
+  slackbot:
+    build: slackbot/
+    volumes:
+      - ./slackbot/:/app
+    depends_on:
+      - postgresdb
