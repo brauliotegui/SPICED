@@ -33,7 +33,9 @@ to attain the best fitting model which indicated Linear models with above averag
 
 ## Week 04| Bikeshare: Lyrics Classifier - Natural Language Processing Project
 
-* The goal here is to build a text classification model to predict the artist from a piece of text. I programmed python functions to perform Web Scraping done with BeautifulSoup to download song lyrics from specifc artists url and save only the corpus lyrics as texts files from every single song lyrics url. Class imbalance was dealt with over sampling, texts were engineered with CountVectorizer and TfidfTransformer, and Machine Learning was done by training classification models... (to be updated)
+* The goal here is to build a text classification model to predict the artist from a piece of text. I programmed python functions to perform Web Scraping done with BeautifulSoup to download song lyrics from specifc artists url and save only the corpus lyrics as texts files from every single song lyrics url. Class imbalance was dealt with over sampling, texts were engineered with CountVectorizer and TfidfTransformer, and Machine Learning was done by training classification models, which were validated and tested to see the which one was the best fit for the project. A command-line interface is included that allows users to input a text for prediction.
+
+* The Jupyter notebook for this project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_04/Project_Lyrics_Prediction_Final.ipynb).
 
 ## Week 05| Forecast Model
 
@@ -43,9 +45,16 @@ to attain the best fitting model which indicated Linear models with above averag
 
 ## Week 06| Project Dashboard: Postgres, SQL queries, RDS, and AWS
 
-* For this project, ...
+* In this project, I built a dashboard summarizing the Northwind Database. It is a sample database that is shipped along with Microsoft Access. The data is about “Northwind Traders”, a fictional company. The database contains all sales transactions between the company and its customers as well as purchases from Northwinds suppliers. For such project, I created a Postgre database in order to create tables inside and write SQL queries that retrieves data. Data was loaded from CSV files into a database. SQLAlchemy library was also used in this project for accessing a database from Python. Ultimately, AWS was used in this project to upload everything into a cloud server and, in this way, building a dashboard with metabase that stayed up and running 24/7.
+
+These are some examples of dashboards that were generated using the Northwind Database: 
 <p align="center">
 <img src="https://github.com/brauliotegui/SPICED/blob/master/Week_06/public_dashboard-example1.png" width="691" height="432">
 <img src="https://github.com/brauliotegui/SPICED/blob/master/Week_06/public_dashboard-example2.png" width="691" height="232">
   </p>
 
+## Week 07| Project Data Pipeline: Docker, MongoDB, and ETL
+
+* The goal of this project was to build a Dockerized Data Pipeline that analyzes the sentiment of tweets. The challenges of this project was to get a Docker Pipeline running that would collect tweets with Tweepy API, process it to include a sentiment analysis of the tweets and then send those tweets to a Slack channel via a Slackbot. For that, a skeleton pipeline was built, tweets were collected and stored in a MongoDB, a python code was implemented to create a ETL task running sentiment analysis, and at last a Slackbot was programmed to send the analyzed tweets from a Postgres database to a slack channel periodically. 
+
+The folder of the project pipeline can be found [here]( ).
