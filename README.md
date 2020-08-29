@@ -57,4 +57,4 @@ These are some examples of dashboards that were generated using the Northwind Da
 
 * The goal of this project was to build a Dockerized Data Pipeline that analyzes the sentiment of tweets. The challenges of this project was to get a Docker Pipeline running that would collect tweets with Tweepy API, process it to include a sentiment analysis of the tweets and then send those tweets to a Slack channel via a Slackbot. For that, a skeleton pipeline was built, tweets were collected and stored in a MongoDB, a python code was implemented to create a ETL task running sentiment analysis, and at last a Slackbot was programmed to send the analyzed tweets from a Postgres database to a slack channel periodically. 
 
-The folder of the project pipeline can be found [here](https://github.com/brauliotegui/SPICED/tree/master/Week_07/Twitter).
+* The folder of the project pipeline can be found [here](https://github.com/brauliotegui/SPICED/tree/master/Week_07/Twitter).
