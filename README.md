@@ -43,7 +43,7 @@ to attain the best fitting model which indicated Linear models with above averag
 
 * The Jupyter notebook for this project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_05/Project_TimeSeriesAnalysis-Final.ipynb).
 
-## Week 06| Project Dashboard: Postgres, SQL queries, RDS, and AWS
+## Week 06| Dashboard: Postgres, SQL, RDS, and AWS
 
 * In this project, I built a dashboard summarizing the Northwind Database. It is a sample database that is shipped along with Microsoft Access. The data is about “Northwind Traders”, a fictional company. The database contains all sales transactions between the company and its customers as well as purchases from Northwinds suppliers. For such project, I created a Postgre database in order to create tables inside and write SQL queries that retrieves data. Data was loaded from CSV files into a database. SQLAlchemy library was also used in this project for accessing a database from Python. Ultimately, AWS was used in this project to upload everything into a cloud server and, in this way, building a dashboard with metabase that stayed up and running 24/7.
 
@@ -53,7 +53,7 @@ These are some examples of dashboards that were generated using the Northwind Da
 <img src="https://github.com/brauliotegui/SPICED/blob/master/Week_06/public_dashboard-example2.png" width="691" height="232">
   </p>
 
-## Week 07| Project Data Pipeline: Docker, MongoDB, and ETL
+## Week 07| Data Pipeline: Docker, MongoDB, and ETL
 
 * The goal of this project was to build a Dockerized Data Pipeline that analyzes the sentiment of tweets. The challenges of this project was to get a Docker Pipeline running that would collect tweets with Tweepy API, process it to include a sentiment analysis of the tweets and then send those tweets to a Slack channel via a Slackbot. For that, a skeleton pipeline was built, tweets were collected and stored in a MongoDB, a python code was implemented to create a ETL task running sentiment analysis, and at last a Slackbot was programmed to send the analyzed tweets from a Postgres database to a slack channel periodically. 
 
