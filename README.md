@@ -58,3 +58,10 @@ These are some examples of dashboards that were generated using the Northwind Da
 * The goal of this project was to build a Dockerized Data Pipeline that analyzes the sentiment of tweets. The challenges of this project was to get a Docker Pipeline running that would collect tweets with Tweepy API, process it to include a sentiment analysis of the tweets and then send those tweets to a Slack channel via a Slackbot. For that, a skeleton pipeline was built, tweets were collected and stored in a MongoDB, a python code was implemented to create a ETL task running sentiment analysis, and at last a Slackbot was programmed to send the analyzed tweets from a Postgres database to a slack channel periodically. 
 
 * The folder of the project pipeline can be found [here](https://github.com/brauliotegui/SPICED/tree/master/Week_07/Twitter).
+
+## Week 08| Markov Chain-based simulator
+
+* In this project, I teamed up with colleagues to write a program that simulates customer behaviour in a supermarket. The project involed 4 main stages: exploring the data -- which included pandas wrangling, calculating transition probabilities (a 5x5 matrix), implementing a Markov Chain-based simulator and creating a program to visualize how customers move through the supermarket through animation.
+The program uses classes, Markov Chain modeling, and a Monte-Carlo simulation...
+
+* The folder of the project can be found [here](...).
