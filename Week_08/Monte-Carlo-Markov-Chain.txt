@@ -1,0 +1,8 @@
+- Our model contains a Markov Chain: defined states S0...S2 and transition probs P
+- randomly sample steps:
+1. create an agent in initial state (plane, customer or random choice, x/y)
+2. randomly perform a move (choose the next state with P|S, go left/right/up/down/fire)
+3. store the current state somewhere
+4. have a stop condition
+- repeat the above step N times
+- store the results (CSV? JSON?)
