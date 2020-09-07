@@ -1,7 +1,9 @@
 # SPICED Academy Projects
 Data Science projects completed at a Data Science Bootcamp
 
-![alt text](https://coden-lernen.de/wp-content/uploads/2018/03/spiced-logo.png)
+ <p align="center">
+  <img src="https://github.com/brauliotegui/SPICED/blob/master/spiced_banner.png" width="75%" height="75%">
+  </p>
 
 ## Week 01| Gapminder: Data Visualization Project
 
