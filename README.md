@@ -1,5 +1,4 @@
 # SPICED Academy Projects
-Data Science projects completed at a Data Science Bootcamp
 
  <p align="center">
   <img src="https://github.com/brauliotegui/SPICED/blob/master/spiced_banner.png" width="75%" height="75%">
