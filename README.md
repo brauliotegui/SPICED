@@ -65,4 +65,4 @@ These are some examples of dashboards that were generated using the Northwind Da
 * In this project, I teamed up with colleagues to write a program that simulates customer behaviour in a supermarket. The project involed 4 main stages: exploring the data -- which included pandas wrangling, calculating transition probabilities (a 5x5 matrix), implementing a Markov Chain-based simulator and creating a program to visualize how customers move through the supermarket through animation.
 The program uses classes, Markov Chain modeling, and a Monte-Carlo simulation...
 
-* The folder of the project can be found [here](...).
+* The folder of the project can be found [here](https://github.com/brauliotegui/MARKET).
