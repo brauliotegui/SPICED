@@ -15,7 +15,7 @@ correlation between each country's population and fertiliy rate. The gif image w
 
 * The Jupyter notebook for this small project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_01/2.7_animate.ipynb).
 
-## Week 02| Titanic: Classifier/ Logistic Regression Project
+## Week 02| Titanic: Classifier/ Logistic Regression
 
 * This project approaches a classic Machine Learning problem, with a classication model, in order to predict passenger survival on the Titanic.
 With python and sklearn library, after a detailed process of feature engineering, I was able to train a Random Forest and Logistic Regression model
@@ -32,7 +32,7 @@ to attain the best fitting model which indicated Linear models with above averag
 
 * The Jupyter notebook for this project can be found [here](https://github.com/brauliotegui/SPICED/blob/master/Week_03/Project_CapitalBikeShare_Regression.ipynb).
 
-## Week 04| Bikeshare: Lyrics Classifier - Natural Language Processing Project
+## Week 04| Bikeshare: Lyrics Classifier - Natural Language Processing
 
 * The goal here is to build a text classification model to predict the artist from a piece of text. I programmed python functions to perform Web Scraping done with BeautifulSoup to download song lyrics from specifc artists url and save only the corpus lyrics as texts files from every single song lyrics url. Class imbalance was dealt with over sampling, texts were engineered with CountVectorizer and TfidfTransformer, and Machine Learning was done by training classification models, which were validated and tested to see the which one was the best fit for the project. A command-line interface is included that allows users to input a text for prediction.
 
@@ -60,9 +60,13 @@ These are some examples of dashboards that were generated using the Northwind Da
 
 * The folder of the project pipeline can be found [here](https://github.com/brauliotegui/SPICED/tree/master/Week_07/Twitter).
 
-## Week 08| Markov Chain-based simulator
+## Week 08| Markov Chain-based Simulator
 
 * In this project, I teamed up with colleagues to write a program that simulates customer behaviour in a supermarket. The project involed 4 main stages: exploring the data -- which included pandas wrangling, calculating transition probabilities (a 5x5 matrix), implementing a Markov Chain-based simulator and creating a program to visualize how customers move through the supermarket through animation.
-The program uses classes, Markov Chain modeling, and a Monte-Carlo simulation...
+The program uses classes in a python program, Markov Chain modeling, and a Monte-Carlo simulation.
 
-* The folder of the project can be found [here](https://github.com/brauliotegui/MARKET).
+* The repository of the project can be found [here](https://github.com/brauliotegui/MARKET).
+
+## Week 09| Deep Learning: Artificial Neural Network
+
+* In this project, ...
