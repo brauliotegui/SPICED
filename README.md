@@ -71,7 +71,7 @@ The program uses classes in a python program, Markov Chain modeling, and a Monte
 
 * This project focuses on building an Artificial Neural Network recognizing handwritten digits from the MNIST dataset. Throughout the week, I learned how to:
 - Build a neural network from scratch
-- Create a virtual environment for your project
+- Create a virtual environment for specific projects
 - Train a neural network with Keras
 - Choose hyperparameters of a neural network
 - Plot a learning curve
