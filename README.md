@@ -69,4 +69,13 @@ The program uses classes in a python program, Markov Chain modeling, and a Monte
 
 ## Week 09| Deep Learning: Artificial Neural Network
 
-* In this project, ...
+* This project focuses on building an Artificial Neural Network recognizing handwritten digits from the MNIST dataset. Throughout the week, I learned how to:
+- Build a neural network from scratch
+- Create a virtual environment for your project
+- Train a neural network with Keras
+- Choose hyperparameters of a neural network
+- Plot a learning curve
+- Train a Convolutional Neural Network
+- Use a pretrained network on photographs
+
+* A few examples of these tasks can be found on the week's folder, such as this [notebook](https://github.com/brauliotegui/SPICED/blob/master/Week_09/finding_nemo.ipynb) where a pretrained network is used on a picture in order to perform object identification of "objects" found on the picture.
