@@ -79,3 +79,8 @@ The program uses classes in a python program, Markov Chain modeling, and a Monte
 - Use a pretrained network on photographs
 
 * A few examples of these tasks can be found on the week's folder, such as this [notebook](https://github.com/brauliotegui/SPICED/blob/master/Week_09/finding_nemo.ipynb) where a pretrained network is used on a picture in order to perform object identification of "objects" found on the picture.
+
+
+## Week 10| Project: Recommender Systems
+
+* Build a movie recommender with a web interface.
