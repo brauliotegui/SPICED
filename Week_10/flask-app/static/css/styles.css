@@ -1,0 +1,26 @@
+/*
+* {
+  background-color: teal;
+}
+*/
+/* star means target ALL elements on the HTML page */
+
+/* Make all paragraphs red */
+
+p {
+  color: blue;
+}
+
+p.red {
+  color: red;
+}
+
+#green-text {
+  color: green;
+}
+
+/* PRIORITY (LEAST TO GREATEST):
+1. elements
+2. Class
+3. id
+*/
