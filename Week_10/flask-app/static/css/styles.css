@@ -1,26 +1,38 @@
-/*
-* {
-  background-color: teal;
-}
-*/
-/* star means target ALL elements on the HTML page */
-
-/* Make all paragraphs red */
-
-p {
-  color: blue;
+.main-container {
+  height: 100vh;
+  display: flex;
+  background-color: #D4EFFF;
+  color: #1E3052;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-p.red {
-  color: red;
+.submit-button {
+  margin-top: 50px;
 }
 
-#green-text {
-  color: green;
+.btn-primary {
+  background-color: #1E3052;
+  color: #FAFFFD;
+  margin-top: 30px;
+  margin-left: 25px;
 }
 
-/* PRIORITY (LEAST TO GREATEST):
-1. elements
-2. Class
-3. id
-*/
+.container {
+  height: 100vh;
+  background-color: #23609F;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommendation-list {
+  color:#660000;
+}
+
+h1 {
+  color: #660000;
+}

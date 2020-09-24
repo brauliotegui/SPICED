@@ -1,14 +1,3 @@
-// sanity check
-// console.log('Everything is linked and workings!');
+//console.log('script is connected');
 
-var button = document.getElementsByClassName('button')[0];
-
-button.addEventListener('mouseover', function(){
-  console.log('hello from mr.button');
-  button.style.background = 'blue';
-});
-
-button.addEventListener('mouseout', function(){
-  console.log('BYEE');
-  button.style.background = 'red';
-});
+var button = document.getElementsByClassName('submit-button')[0];
