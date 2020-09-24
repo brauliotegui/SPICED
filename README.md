@@ -85,6 +85,6 @@ The program uses classes in a python program, Markov Chain modeling, and a Monte
 
 * A movie recommender built with a web interface. This project entails a web-based movie recommender engine using two different recommendation models: NMF, Negative Matrix Factorization algorithm, and an user-based cosimilarity matrix recommender algorithm that takes the top 10 most similar users and creates a new movie vector from their ratings average to recommend movies that would most likely be appreciated by that new similar user. This is a collaborative project that still in development.
 
-* The repository of the project can be found [here](https://github.com/brauliotegui/).
+* The repository of the project can be found [here](https://github.com/brauliotegui/POPCORN).
 
 * A flask-app folder and related python work can also be found in the Week 10 folder.
