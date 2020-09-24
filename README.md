@@ -83,4 +83,8 @@ The program uses classes in a python program, Markov Chain modeling, and a Monte
 
 ## Week 10| Project: Recommender Systems
 
-* Build a movie recommender with a web interface.
+* A movie recommender built with a web interface. This project entails a web-based movie recommender engine using two different recommendation models: NMF, Negative Matrix Factorization algorithm, and an user-based cosimilarity matrix recommender algorithm that takes the top 10 most similar users and creates a new movie vector from their ratings average to recommend movies that would most likely be appreciated by that new similar user. This is a collaborative project that still in development.
+
+* The repository of the project can be found [here](https://github.com/brauliotegui/).
+
+* A flask-app folder and related python work can also be found in the Week 10 folder.
